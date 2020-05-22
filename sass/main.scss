@@ -1,0 +1,9 @@
+@import './abstracts/theme';
+@import './abstracts/media';
+@import './base/global';
+
+body {
+	font-family: $font-family-body;
+	font-size: $font-size-default;
+	color: $color-neutral-dark;
+}

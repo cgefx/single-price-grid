@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+//Fonts
+$font-family-body: 'Poppins', sans-serif;
+$font-size-default: 1.6rem;
+
+// Primary Colors
+$color-primary: hsl(0, 100%, 74%);
+$color-secondary: hsl(248, 32%, 49%);
+
+// Neutral Colors
+$color-white: #fff;
+$color-neutral-dark: hsl(249, 10%, 26%);
+$color-neutral-light: hsl(246, 25%, 77%);
+
+// Feedback Colors
+$color-alert: hsl(0, 100%, 74%);
+$color-success: hsl(154, 59%, 51%);
+
+// Shadows
+$box-shadow: 0px 10px 11px -1px hsla(249, 10%, 26%, 0.46);
+
+// Border radius
+$border-radius-container: 10px;
+$border-radius-element: 4px;
