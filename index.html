@@ -4,13 +4,52 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="css/style.css" />
-		<link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-		<title>Vanilla SASS Starter</title>
+		<link rel="shortcut icon" type="image/png" href="./images/favicon-32x32.png" />
+		<title>Single Price Grid</title>
 	</head>
 
-	<body>
-		<h1 class="test">hello world</h1>
+	<body class="bg-light">
+		<div class="center">
+			<div class="container shadow-dark border-radius-md">
+				<div class="text-box bg-white">
+					<h3 class="text-box__header text-primary">Join our community</h3>
+					<h4 class="text-box__sub-header text-secondary">
+						30-day, hassle-free money back guarantee
+					</h4>
+					<p class="paragraph">
+						Gain access to our full library of tutorials along with expert code reviews.
+						Perfect for any developers who are serious about honing their skills.
+					</p>
+				</div>
+				<div class="flex">
+					<div class="text-box bg-primary">
+						<h3 class="text-box__sub-header text-white">Monthly Subscription</h3>
 
+						<div class="text-box__price row">
+							<h1 class="text-white">$29</h1>
+							<span class="text-box__price--light text-white">per month </span>
+						</div>
+
+						<h4 class="text-box__price--sub text-white">
+							Full access for less than $1 a day
+						</h4>
+						<button class="btn text-white bg-secondary">Sign-Up</button>
+					</div>
+					<div class="text-box bg-primary-light">
+						<h3 class="text-box__sub-header text-white">Why Us</h3>
+						<ul class="text-box__feature-list column">
+							<li class="text-box__feature text-white">Tutorials by industry experts</li>
+							<li class="text-box__feature text-white">Peer & expert code review</li>
+							<li class="text-box__feature text-white">Coding exercises</li>
+							<li class="text-box__feature text-white">Access to our GitHub repos</li>
+							<li class="text-box__feature text-white">Community forum</li>
+							<li class="text-box__feature text-white">Flashcard decks</li>
+							<li class="text-box__feature text-white">New videos every week</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 		<script src="./js/index.js"></script>
 	</body>
 </html>

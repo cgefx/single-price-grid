@@ -6,4 +6,88 @@ body {
 	font-family: $font-family-body;
 	font-size: $font-size-default;
 	color: $color-neutral-dark;
+	background: $color-neutral-light;
+	height: 100vh;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+// .container-sm {
+// 	width: 80%;
+// 	margin: 0 auto;
+// }
+
+.center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+.text-box {
+	padding: 2.8rem 2rem;
+	&__header {
+		font-size: 2rem;
+		margin-bottom: 2.6rem;
+		font-weight: 700;
+	}
+	&__sub-header {
+		font-size: 1.6rem;
+		font-weight: 700;
+		margin-bottom: 2rem;
+	}
+	&__price {
+		font-size: 3rem;
+		font-weight: 700;
+		margin-bottom: 1.6rem;
+
+		&--light {
+			margin-left: 1rem;
+			font-size: 1.6rem;
+			font-weight: 400;
+			opacity: 0.5;
+		}
+
+		&--sub {
+			font-size: 1.6rem;
+			margin-bottom: 3rem;
+		}
+	}
+
+	&__feature-list {
+	}
+
+	&__feature {
+		opacity: 0.8;
+		font-size: 1.4rem;
+		margin: 0.5rem 0;
+	}
+}
+
+.btn {
+	padding: 1.5rem 0rem;
+	width: 100%;
+	margin: 0 auto;
+	font-size: 1.4rem;
+	font-weight: 700;
+	border-radius: $border-radius-sm;
+	box-shadow: $box-shadow;
 }
